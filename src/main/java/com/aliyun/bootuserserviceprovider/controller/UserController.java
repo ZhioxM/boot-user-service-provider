@@ -28,4 +28,9 @@ public class UserController {
         return "hello git devlop";
     }
 
+    @GetMapping("hello")
+    String hello4() {
+        return "hello git push";
+    }
+
 }
