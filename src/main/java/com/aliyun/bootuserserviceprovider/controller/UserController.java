@@ -17,4 +17,10 @@ public class UserController {
     String hello() {
         return "hello git";
     }
+
+    @GetMapping("hello")
+    String hello2() {
+        return "hello git";
+    }
+
 }
