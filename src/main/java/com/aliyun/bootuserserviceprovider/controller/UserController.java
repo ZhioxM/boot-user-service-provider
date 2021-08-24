@@ -12,4 +12,9 @@ public class UserController {
     String list() {
         return "hello git";
     }
+
+    @GetMapping("hello")
+    String hello() {
+        return "hello git";
+    }
 }
