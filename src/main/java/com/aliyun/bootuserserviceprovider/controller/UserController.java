@@ -23,4 +23,9 @@ public class UserController {
         return "hello git";
     }
 
+    @GetMapping("hello")
+    String hello3() {
+        return "hello git devlop";
+    }
+
 }
