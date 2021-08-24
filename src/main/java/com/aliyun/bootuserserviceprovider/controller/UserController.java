@@ -32,6 +32,7 @@ public class UserController {
     String hello4() {
         // 测试拉取
         // 测试push
+        // 测试pull
         return "hello git push";
     }
 
